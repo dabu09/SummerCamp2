@@ -1,0 +1,24 @@
+#por-que .logos1, #por-que .logos2 {
+  position: absolute; }
+#por-que .twitter-logo {
+  -webkit-transform: rotate(-10deg);
+  width: 5em;
+  position: absolute;
+  top: 0.9em;
+  left: -1em; }
+#por-que .fb-logo {
+  -webkit-transform: rotate(10deg);
+  width: 3em;
+  position: absolute;
+  top: 2em;
+  left: 9em; }
+#por-que .instagram-logo {
+  -webkit-transform: rotate(-10deg);
+  width: 3em;
+  position: absolute;
+  top: 7.5em;
+  left: 3.8em; }
+
+.deck-container > .slide .deck-before,
+.deck-container > .slide .deck-previous {
+  opacity: 1; }
