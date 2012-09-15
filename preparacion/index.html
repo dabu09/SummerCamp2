@@ -54,7 +54,7 @@
 
 <section class="slide video-container" id="inicio">
   <h2>Planificación para el Summer Camp 2</h2>
-  <div class="video-bg">&lt;Aquí vas tú&gt;</div>
+  <div class="video-marker main">&lt;Aquí vas tú&gt;</div>
   <div class="author">Alexis Hevia</div>
   <footer></footer>
 </section>
@@ -63,18 +63,41 @@
   <h2>¿Por qué hacer el Summer Camp 2?</h2>
   <ul>
     <li class="slide">Nos encanta la programación</li>
-    <div class="logos1" style="opacity: 0;">
+    
+    <div class="logos1" style="opacity:0;">
       <img class="twitter-logo" src="img/twitter_logo.png" />
       <img class="fb-logo" src="img/fb_logo.png" />
     </div>
+    <div class="anim-show slide" data-what=".logos1"></div>
+
     <div class="logos2">
       <img class="instagram-logo" src="img/instagram_logo.png" />
     </div>
-    <div class="anim-show slide" data-what=".logos1"></div>
     <div class="anim-show slide" data-what=".logos2"></div>
+
     <li class="anim-hide slide" data-what=".logos1, .logos2">No se está enseñando programación como debe ser</li>
+
+    <div class="pregunta preg1" style="opacity:0;">¿Fuertemente tipado?</div>
+    <div class="anim-show slide" data-what=".preg1"></div>
+
+    <div class="pregunta preg2" style="opacity:0;">¿Imperativo o declarativo?</div>
+    <div class="anim-show slide" data-what=".preg2"></div>
+
+    <div class="wtf" style="opacity:0;">WTF!?</div>
+    <div class="anim-show slide" data-what=".wtf"></div>
+
+    <div class="anim-hide slide" data-what=".pregunta, .wtf"></div>
+
+    <img class="borlandc" src="img/borlandc.png" style="opacity:0;" />
+    <div class="anim-show slide" data-what=".borlandc"></div>
+    <div class="anim-show slide" data-what=".wtf"></div>
+    <div class="anim-hide slide" data-what=".borlandc, .wtf"></div>
+
+    <li class="slide">Aprender a programar debe ser divertido</li>
+    <li class="slide">Queremos compartir esa experiencia</li>
   </ul>
   <footer>Summer Camp 2</footer>
+  <div class="video-marker corner">&lt;Aquí vas tú&gt;</div>
 </section>
 
 <section class="slide" id="table-contents">

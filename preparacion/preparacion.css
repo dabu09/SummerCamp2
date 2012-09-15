@@ -18,6 +18,29 @@
   position: absolute;
   top: 7.5em;
   left: 3.8em; }
+#por-que .pregunta {
+  -webkit-transform: rotate(-14deg);
+  font-family: ubuntu;
+  color: #919191;
+  position: absolute;
+  top: 40%;
+  left: 10%; }
+  #por-que .pregunta.preg2 {
+    top: 50%;
+    left: 18%; }
+#por-que .wtf {
+  opacity: 1;
+  font-family: ubuntu;
+  color: red;
+  position: absolute;
+  top: 37%;
+  left: 20%;
+  font-size: 3em;
+  z-index: 1; }
+#por-que .borlandc {
+  position: absolute;
+  left: 2%;
+  top: 32%; }
 
 .deck-container > .slide .deck-before,
 .deck-container > .slide .deck-previous {

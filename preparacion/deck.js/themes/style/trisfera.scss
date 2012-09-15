@@ -280,21 +280,32 @@
 		}
 	}
 
+	.video-marker {
+    background-color: black;
+    color: white;
+    text-align: center;
+    &.main {
+    	width: 19em;
+	    height: 14.25em;
+	    line-height: 14.25em;
+	    margin: 0.5em auto;
+	    border: 10px solid white;
+    }
+    &.corner {
+    	position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 15em;
+			height: 11.25em;
+			line-height: 11.25em;
+    }
+	}
+
 	.video-container {
     h2 {
     	text-align: center;
     	padding: 0;
     	margin: 0.4em 0 0.5em 0;
-    }
-    .video-bg {
-      width: 19em;
-      height: 14.25em;
-      line-height: 14.25em;
-      margin: 0.5em auto;
-      background-color: black;
-      border: 10px solid white;
-      color: white;
-      text-align: center;
     }
     .author{
     	font-size: 1.2em;
