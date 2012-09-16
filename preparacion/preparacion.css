@@ -28,13 +28,16 @@
   #por-que .pregunta.preg2 {
     top: 50%;
     left: 18%; }
+  #por-que .pregunta.preg3 {
+    top: 49%;
+    left: 5%; }
 #por-que .wtf {
   opacity: 1;
   font-family: ubuntu;
   color: red;
   position: absolute;
-  top: 37%;
-  left: 20%;
+  top: 40%;
+  left: 15%;
   font-size: 3em;
   z-index: 1; }
 #por-que .borlandc {
@@ -42,6 +45,28 @@
   left: 2%;
   top: 32%; }
 
+.inception-image {
+  position: absolute;
+  width: 9em;
+  top: 6em;
+  left: 4em; }
+
+#formato blockquote {
+  position: absolute;
+  top: 3em;
+  right: 1em;
+  width: 12em;
+  font-size: 1.1em; }
+
+.contacto {
+  margin-top: 1em; }
+  .contacto div {
+    margin: 0.6em 0; }
+
 .deck-container > .slide .deck-before,
 .deck-container > .slide .deck-previous {
   opacity: 1; }
+
+#outro .video-marker {
+  margin-top: 2em;
+  margin-bottom: 2em; }
